@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name = 'PodTestLibrary'
+s.name = 'PodTestLibrary123456'
 s.version = '0.7.0'
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.summary = 'A view like UIAlertViewController on iOS.'
