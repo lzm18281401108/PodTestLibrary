@@ -9,4 +9,6 @@ s.source = { :git => 'https://github.com/lzm18281401108/PodTestLibrary.git', :ta
 s.requires_arc = true
 s.ios.deployment_target = '7.0'
 s.source_files = 'PodTestLibrary/*.{h,m}'
+s.framework  = "UIKit"
+s.platform     = :ios, "7.0"
 end
