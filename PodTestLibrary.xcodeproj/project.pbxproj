@@ -10,6 +10,8 @@
 		16294CF320188CC900E9EFC6 /* PodTestLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16294CE920188CC900E9EFC6 /* PodTestLibrary.framework */; };
 		16294CF820188CC900E9EFC6 /* PodTestLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16294CF720188CC900E9EFC6 /* PodTestLibraryTests.m */; };
 		16294CFA20188CC900E9EFC6 /* PodTestLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 16294CEC20188CC900E9EFC6 /* PodTestLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16294D0520188CE900E9EFC6 /* YMButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 16294D0320188CE900E9EFC6 /* YMButton.h */; };
+		16294D0620188CE900E9EFC6 /* YMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16294D0420188CE900E9EFC6 /* YMButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		16294CF220188CC900E9EFC6 /* PodTestLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTestLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16294CF720188CC900E9EFC6 /* PodTestLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodTestLibraryTests.m; sourceTree = "<group>"; };
 		16294CF920188CC900E9EFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16294D0320188CE900E9EFC6 /* YMButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMButton.h; sourceTree = "<group>"; };
+		16294D0420188CE900E9EFC6 /* YMButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				16294CEC20188CC900E9EFC6 /* PodTestLibrary.h */,
 				16294CED20188CC900E9EFC6 /* Info.plist */,
+				16294D0320188CE900E9EFC6 /* YMButton.h */,
+				16294D0420188CE900E9EFC6 /* YMButton.m */,
 			);
 			path = PodTestLibrary;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16294D0520188CE900E9EFC6 /* YMButton.h in Headers */,
 				16294CFA20188CC900E9EFC6 /* PodTestLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16294D0620188CE900E9EFC6 /* YMButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
